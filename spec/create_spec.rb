@@ -1,3 +1,5 @@
+# this tests your create.sql file
+
 describe 'creating bears table' do
   let(:db) do
     SQLite3::Database.new(':memory:')

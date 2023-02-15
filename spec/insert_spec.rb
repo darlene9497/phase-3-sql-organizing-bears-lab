@@ -1,3 +1,5 @@
+# this tests your insert.sql file
+
 describe 'populating the bears table' do
   let(:db) do
     SQLite3::Database.new(':memory:')

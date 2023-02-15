@@ -1,3 +1,5 @@
+# this tests the queries you write in sql_queries.rb
+
 describe 'querying the bears table' do
   let(:db) do
     SQLite3::Database.new(':memory:')
